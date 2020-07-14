@@ -1,0 +1,28 @@
+{
+  "name": "oreilly-javascript",
+  "version": "1.0.0",
+  "description": "初めてのJavaScript 第3版 付録C 開発ツールのインストール",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takumi1005/OREILLY-JavaScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/takumi1005/OREILLY-JavaScript/issues"
+  },
+  "homepage": "https://github.com/takumi1005/OREILLY-JavaScript#readme",
+  "dependencies": {
+    "underscore": "^1.10.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0"
+  }
+}
