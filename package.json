@@ -24,7 +24,9 @@
     "@babel/preset-env": "^7.10.4",
     "babel-cli": "^6.26.0",
     "babel-preset-latest": "^6.24.1",
+    "eslint": "^7.4.0",
     "gulp": "^4.0.2",
-    "gulp-babel": "^8.0.0"
+    "gulp-babel": "^8.0.0",
+    "gulp-eslint": "^6.0.0"
   }
 }
