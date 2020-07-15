@@ -1,13 +1,14 @@
 const gulp = require('gulp');
 const babel = require('gulp-babel');
 
-gulp.task('defalut', function(){
+gulp.task('default', function(done) {
   // Nodeのソース
   gulp.src("es6/**/*.js")
     .pipe(babel())
-    .pipea(gulp.dest("dist"));
+    .pipe(gulp.dest("dist"));
   // ブラウザのソース
   gulp.src("public/es6/**/*.js")
     .pipe(babel())
-    .pipea(gulp.dest("public/dist"));
+    .pipe(gulp.dest("public/dist"));
+  done();
 });
