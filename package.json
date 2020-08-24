@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/takumi1005/OREILLY-JavaScript#readme",
   "dependencies": {
+    "debug": "^4.1.1",
     "moment-timezone": "^0.5.31",
     "underscore": "^1.10.2"
   },
